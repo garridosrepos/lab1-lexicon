@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="login">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="login" name="description">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
     <title>User login</title>
 </head>
 <body>
+
+<!--
+
+<div class="instruction-box">
+</div>
 
 <div class="instructions">
     <h3>Laborationsuppgift I</h3>
@@ -17,76 +22,42 @@
         både vertikalt och horisontellt
         oavsett skärmstorlek.
     </p>
-
+    
     <p class="instruct-p">För att logga in i detta fall räcker det med en email och ett lösenord.
         Du ska använda HTML och CSS för att lösa uppgiften
         och formuläret behöver inte ha någon funktionalitet,
         tänk på att använda rätt typ av input för det användaren ska skriva in.
     </p>
 </div>
+-->
 
-
-    <div class="login-box">
+<div class="container">
+    <div class="box loginBox">
         <h1>User Login</h1>
-        <div class="form">
-            <form >
-                <div class="form-box">
-                    <div class="flex-item">
-                        <p class="col">Username</p>
+        <form class="login-form">
+            <div>
+                <div>
+                    <p class="col">Username</p>
+                    <label>
                         <input type="email" name="email">
-                    </div>
-
-                    <div class="flex-item">
-                        <p class="col">Password </p>
-                        <input type="password"  name="password">
-                    </div>
+                    </label>
                 </div>
-                <button class="login-btn" type="submit" value="login">
-                Login
-                </button>
-            </form>
-        </div>
-
+                <div >
+                    <p class="col">Password </p>
+                    <label>
+                        <input type="password" name="password">
+                    </label>
+                </div>
+                <div class="btn-container">
+                    <button class="login-btn" type="submit" value="login">
+                        Login
+                    </button>
+                </div>
+            </div>
+        </form>
     </div>
-
-
-<div class="article">
-    <section class="article-header">
-        <h1>Lorem ipsum dolor sit amet</h1>
-    </section>
-
-    <section class="article-section">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi, beatae dicta earum hic impedit magnam
-        nesciunt, obcaecati odio officia possimus quidem quod reiciendis rem repellendus saepe similique totam vel.
-        Assumenda delectus deserunt distinctio doloribus ducimus et facilis illum labore minima, minus nemo nisi placeat
-        praesentium quasi quibusdam quo tempora? Alias at deserunt ducimus enim ipsa modi molestiae provident quasi quia
-        quis! Adipisci aspernatur atque, culpa cum dolores eligendi harum hic illum incidunt natus odit officiis quam
-        quas similique ullam. Accusantium aliquam, aliquid cum delectus dolorem eveniet expedita fugit, iusto nisi nobis
-        placeat quibusdam sint soluta tenetur unde.
-    </section>
-
-
-    <section class="article-image">
-        <img src="img/city.png" alt="city" srcset="img/city.png" width="50%" height="50%">
-        <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur dignissimos magni modi nihil
-            perspiciatis!</b></p>
-    </section>
-
-    <section class="article-section"> Commodi dolor eos exercitationem fugiat illo itaque
-        molestiae mollitia, nobis numquam odio perferendis rem rerum sint ut veniam vitae. A adipisci alias aliquam
-        architecto commodi dolore doloribus enim eos eveniet in incidunt ipsa, ipsum magnam molestiae nostrum omnis
-        pariatur perferendis quas reiciendis voluptatum. Architecto enim eos odit quasi quo rem? Aut eius ipsum laborum
-        sed vero. A architecto aspernatur, assumenda aut culpa cum cupiditate est explicabo iure magnam molestias natus
-        nostrum odio odit omnis optio praesentium provident quia sed suscipit temporibus ut voluptas voluptatem
-        voluptates voluptatum! At exercitationem non nostrum. Ab ad consectetur, distinctio, eum, fugiat hic inventore
-        iure magnam maxime nam numquam quod repellendus reprehenderit soluta sunt tempora ut? A alias autem culpa
-        dolores doloribus eaque eius exercitationem harum in ipsum iure necessitatibus nobis quae quibusdam quo, quos
-        reprehenderit saepe tempora veritatis vero. Doloremque exercitationem molestiae nam perspiciatis qui
-        temporibus.ﬂ
-    </section>
-    <footer>
-        <p>Sign:<em>Writer X</em></p>
-    </footer>
 </div>
+
 </body>
+
 </html>
